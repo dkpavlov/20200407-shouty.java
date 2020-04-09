@@ -58,4 +58,14 @@ Programmer tests were both passing, Scenario Hear Shout.Out of range shout is no
 #### Where are we now? What do we need to do next?
 The programmer changes just enough code to make the test pass. We need to Refactor and clean up code.
 
-##Page 4
+## Page 5
+
+#### What is Cucumber telling us?
+- We are missing the definition of the step
+
+#### Should you always copy the generated snippet into your step definition file?
+- NO 
+
+#### Can you think of any reasons why you might have to edit the generated snippet? 
+We may want to modify the signature of the step definition
+
