@@ -46,3 +46,16 @@ All scenarios in the .feature file; Based on the scenario key word
 
 ### How would you explain to your product owner what is wrong with Shouty, from what you see in the test results?
 - Shouty distance/range is not calculated correctly 
+
+##Page 3
+
+#### Does the code you have just uncommented look like a complete solution?
+No, it calculates only x coordinate.
+
+#### Which programmer test(s) are failing? Which scenario(s) are failing?
+Programmer tests were both passing, Scenario Hear Shout.Out of range shout is not heard was failing.
+
+#### Where are we now? What do we need to do next?
+The programmer changes just enough code to make the test pass. We need to Refactor and clean up code.
+
+##Page 4

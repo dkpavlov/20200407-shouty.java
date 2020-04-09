@@ -12,15 +12,15 @@ public class ShoutSteps {
     private static final String ARBITRARY_MESSAGE = "Hello, world";
     private final Shouty shouty = new Shouty();
 
-    @Given("Lucy is at {int}, {int}")
-    public void lucy_is_at(int xCoord, int yCoord) {
-        shouty.setLocation("Lucy", new Coordinate(xCoord, yCoord));
+    @Given("{word} is at {int}, {int}")
+    public void actor_is_at(String actor, int xCoord, int yCoord) {
+        shouty.setLocation(actor, new Coordinate(xCoord, yCoord));
     }
 
-    @Given("Sean is at {int}, {int}")
-    public void sean_is_at(int xCoord, int yCoord) {
-        shouty.setLocation("Sean", new Coordinate(xCoord, yCoord));
-    }
+//    @Given("Sean is at {int}, {int}")
+//    public void sean_is_at(int xCoord, int yCoord) {
+//        shouty.setLocation("Sean", new Coordinate(xCoord, yCoord));
+//    }
 
     @When("Sean shouts")
     public void sean_shouts() {
