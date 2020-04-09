@@ -23,11 +23,11 @@ shouty.ShoutyTypes
 
 #### The feature file contains scenarios made up of steps. Each step causes Cucumber to look for a Java step definition to run. How does Cucumber decide which step definition to run for each step?
 
-Using annotation (cucumber.api.java.en.*) in the shouty.ShoutSteps file
+Using annotation (cucumber.api.java.en.*) in the shouty.ShoutSteps file; based on the text (name) of the step
 
 #### And how does Cucumber decide which scenarios to run?
 
-All scenarios in the .feature file
+All scenarios in the .feature file; Based on the scenario key word
 
 
 ## Page 2
