@@ -22,3 +22,9 @@ Feature: Hear Shout
     And Oscar shouts
     Then Lucy should not hear Oscar
     But Lucy should hear Sean
+
+
+  Scenario: Own shouts should not be heard
+    #Given Lucy is at 0, 0
+    When Lucy shouts
+    Then Lucy should not hear Lucy

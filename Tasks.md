@@ -69,3 +69,13 @@ The programmer changes just enough code to make the test pass. We need to Refact
 #### Can you think of any reasons why you might have to edit the generated snippet? 
 We may want to modify the signature of the step definition
 
+## Page 8
+
+#### Does your new scenario pass? What stage of the BDD process are we at now?
+No. New scenario added.
+
+#### How long do you think the cycle of adding a new scenario and getting it to pass usually takes?
+Depending on the scenario - half a day more or less.
+
+#### Does your new scenario have a Given step that specifies someone’s location? Do you think that should be necessary?
+Yes, but we do not need it
